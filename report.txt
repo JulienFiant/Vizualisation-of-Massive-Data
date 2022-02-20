@@ -4,16 +4,13 @@ Analysis.py -> Julien Fiant
 Visualization_1.py -> Mael Brocher
 Visualization_2.py -> Julien Fiant
 
-
 Visualization 1 :
-Scatter use to show quickly correlation between 2 columns
-For exemple here, with this dataset, the better visualization is between Hoserpower and Acceleration
+Scatter is used to show quickly correlation between 2 columns
+For example here, with this dataset, the better visualization is between Hoserpower and Acceleration
 
 Visualization 2 :
-Candle representation is use here to highlight other information
-Here candle works very good, to help us to highlight informations about the column Origin
-For exemple Origin and Hoserpower
-
+Candle representation is used here to highlight other information
+Here candle works well to highlight informations about the cars Origin
 
 Librairies :
 
@@ -30,7 +27,7 @@ numpy :
 pandas :
     which use numpy to gain better function and performance
     functions :
-        - read.csv -> read a csv file
+        - read_csv -> read a csv file
         - Dataframe -> create a panda array like numpy
 
 math :
@@ -48,10 +45,10 @@ argparse :
 matplotlib :
     basic function to get a visualization interface
     functions :
-        - show -> print the interface
+        - show -> display plots
 
 seaborn :
     advanced function to get a visualization interface, which use matplotlib
     functions :
-        - lmplot -> scatter plot visualization with advanced parameters
+        - lmplot -> scatter plot visualization with advanced parameters like color Map
         - boxplot -> create candle visualization
