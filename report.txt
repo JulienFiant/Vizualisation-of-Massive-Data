@@ -1,0 +1,57 @@
+Task per Student :
+Artifical_dataset.py -> Mael Brocher
+Analysis.py -> Julien Fiant
+Visualization_1.py -> Mael Brocher
+Visualization_2.py -> Julien Fiant
+
+
+Visualization 1 :
+Scatter use to show quickly correlation between 2 columns
+For exemple here, with this dataset, the better visualization is between Hoserpower and Acceleration
+
+Visualization 2 :
+Candle representation is use here to highlight other information
+Here candle works very good, to help us to highlight informations about the column Origin
+For exemple Origin and Hoserpower
+
+
+Librairies :
+
+numpy :
+    basic function for data analysis
+    functions :
+        - mean -> calculate mean of column
+        - std -> calculate standart deviation of column
+        - random.uniform -> use to create random data with the same possibility
+        - transpose -> flip a numpy array
+        - corrcoef -> calculate correlation coefficient of column
+        - savetxt -> save numpy array to csv file
+
+pandas :
+    which use numpy to gain better function and performance
+    functions :
+        - read.csv -> read a csv file
+        - Dataframe -> create a panda array like numpy
+
+math :
+    transformation data, principaly for percentage
+    functions :
+        - round -> round a float
+
+argparse :
+    easy params command line setup
+    functions :
+        - ArgumentParser -> create the instance of the class
+        - addArgument -> setup new parameters for the python file
+        - parse_args -> get all value of parameters
+
+matplotlib :
+    basic function to get a visualization interface
+    functions :
+        - show -> print the interface
+
+seaborn :
+    advanced function to get a visualization interface, which use matplotlib
+    functions :
+        - lmplot -> scatter plot visualization with advanced parameters
+        - boxplot -> create candle visualization

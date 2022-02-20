@@ -1,6 +1,6 @@
-from contextlib import nullcontext
 import numpy as np
 from math import *
+
 def main():
     nb_bebete = 300
 
