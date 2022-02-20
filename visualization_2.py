@@ -28,7 +28,7 @@ def main():
     if (args.range > len(data.index) or args.range < 1):
         print ("Error in the argument range, change the value")
         return (1)
-    ax = sb.boxplot(x=data[args.column2][0:args.range], y=data[args.column1][0:args.range])
+    sb.boxplot(x=data[args.column2][0:args.range], y=data[args.column1][0:args.range])
     plt.show()
     return
 
