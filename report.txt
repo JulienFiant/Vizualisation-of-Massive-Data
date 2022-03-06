@@ -3,6 +3,8 @@ Artifical_dataset.py -> Mael Brocher
 Analysis.py -> Julien Fiant
 Visualization_1.py -> Mael Brocher
 Visualization_2.py -> Julien Fiant
+Supervised_learning.py -> Mael Brocher
+Comments.pdf -> Julien Fiant
 
 Visualization 1 :
 Scatter is used to show quickly correlation between 2 columns

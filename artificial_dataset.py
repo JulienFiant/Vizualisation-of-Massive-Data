@@ -39,7 +39,7 @@ def main():
     print("No correlation : Longitude and Latitude")
     print(np.corrcoef(datalat, datalong))
 
-    np.savetxt("bebetes.csv", data,fmt="%.2f,%i,%i,%i,%.2f,%i,%.2f,%.2f", header='Size in cm,Number of Eyes,Number of Body Members,Number of Wings, Sea level,Population, Longitude,Latitude')#
+    np.savetxt("generated_dataset.csv", data,fmt="%.2f,%i,%i,%i,%.2f,%i,%.2f,%.2f", header='Size in cm,Number of Eyes,Number of Body Members,Number of Wings, Sea level,Population, Longitude,Latitude')#
 
 if __name__ == "__main__":
     main()
